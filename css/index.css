@@ -1,0 +1,118 @@
+
+body {
+	margin: 0;
+    font-family: "Poppins", sans-serif;
+    background:black;
+	color:orange;
+}
+
+
+input{
+    box-shadow: 20px rgb(206, 33, 33);
+}
+
+
+.topnav{
+	overflow:hidden;
+	background-color:#1CBCD9;
+	color :WHITE;
+	HEIGHT: 50PX;
+}
+
+.topnav .input-conatiner{
+	float:left
+}
+
+.topnav input[type=text]{
+	padding:6px;
+	margin-top:8px;
+	font-size:17px;
+	border:none;
+	width:25%;
+}
+
+.topnav input[type=submit]{
+	
+	padding:6px;
+	margin-top:8px;
+	margin-left:16px;
+	background:#DDD;
+	font-size:17px;
+	cursor:pointer;
+}
+
+.topnav button{
+	float:right;
+	padding:6px;
+	margin-top:8px;
+	margin-right:16px;
+	background:#DDD;
+	font-size:17px;
+	cursor:pointer;
+	color:black;
+	background:orange;
+}
+
+.topnav button:hover{
+	background:#CCC;
+}
+
+.box-container{
+    height: 75vh;
+    overflow: auto;
+}
+
+.box-container table{
+	margin: 1rem auto;
+}
+
+.table-column{
+    width: 150px;
+    min-height: 150px;
+    height: inherit;
+}
+
+td{
+    border: 1px solid;
+	text-align:center;
+}
+
+#tiles-container{
+    /*display: flex;*/
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    position: fixed;
+    height: 30vh;
+    width: 100vw;
+    bottom: 0;
+    background-color: #177EC2;
+	color:white;
+}
+.tile{
+    width: 140px;
+    height: 70px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+   /*margin: 5px 10px;*/
+	text-align:center;
+	background:#177EC2;
+}
+
+
+
+input{
+    width: 80px;
+}
+
+.lockable{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.non-editable p{
+    margin: 3px;
+}
